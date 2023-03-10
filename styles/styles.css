@@ -1,0 +1,58 @@
+body {
+  background: rgb(246, 219, 231);
+  background: radial-gradient(
+    circle,
+    rgba(246, 219, 231, 1) 0%,
+    rgba(194, 214, 238, 1) 100%
+  );
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+:root {
+  --purple: #800080;
+  --white: #ffffff;
+  --green: #006400;
+  --orange: #ffa500;
+  --black: #080808;
+}
+
+/* Code for exercise 01-flex */
+.nav-container {
+  background-color: var(--purple);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin: -10px;
+}
+
+.flex-item {
+  width: 12rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-item-link {
+  color: var(--white);
+  text-decoration: none;
+  padding: 30px 60px;
+  white-space: nowrap;
+}
+
+.flex-item:hover {
+  background-color: var(--green);
+}
+
+.flex-item:active {
+  background-color: var(--orange);
+}
+
+.flex-item:focus {
+  outline: 3px solid var(--orange);
+}
