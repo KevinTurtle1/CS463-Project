@@ -46,6 +46,7 @@ let icon = document.createElement("i");
 icon.classList.add("fa", "fa-linkedin-square");
 icon.style.fontSize = "36px";
 icon.style.color = "#0A66C2";
+icon.style.marginTop = "-20px";
 link.appendChild(icon);
 connect_item.appendChild(connect_header);
 connect_item.appendChild(link);

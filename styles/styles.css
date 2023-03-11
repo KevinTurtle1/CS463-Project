@@ -72,24 +72,49 @@ h1 {
   }
 }
 
-.footer {
+/*.footer {
   position: absolute;
   bottom: 0;
   display: flex;
   width: 100%;
   margin: -10px;
   background-color: var(--green);
+  padding: 20px;
 }
 
 .footer-item {
   width: 100%;
   padding: 0px 40px;
   color: var(--white);
+}*/
+
+.footer{
+  padding: 20px;
+  background-color: var(--green);
+  display: flex;
 }
 
+.footer-item{
+  width: 100%;
+  color: var(--white);
+}
+
+.introduction{
+  display: block;
+  text-align: center;
+}
 .images {
-  border-radius: 50%;
-  width: 50%;
+  width: auto;
+  height:500px;
   padding: 50px 20px;
-  position: absolute;
+}
+h1.text{
+  font-size: 4rem;
+  padding: 10px;
+  margin-top: -20px;
+}
+
+p.text{
+  font-size: 2rem;
+  padding: 10px;
 }
