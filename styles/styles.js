@@ -7,20 +7,17 @@ const links = [
   "../contact.html",
 ];
 
-let navbar = document.querySelector(".nav-container");
-
-//Header
+//let navbar = document.querySelector(".nav-list");
+let navbar = document.querySelector(".nav-list");
 for (let index = 0; index < links.length; index++) {
-  let flex_item = document.createElement("div");
-  flex_item.className = "flex-item";
-
+  let li = document.createElement("li");
+  li.className = "nav-item";
   let link = document.createElement("a");
-  link.className = "flex-item-link";
+  link.className = "nav-link";
   link.href = links[index];
-  link.textContent = tabs[index];
-
-  flex_item.appendChild(link);
-  navbar.append(flex_item);
+  link.innerHTML = tabs[index];
+  li.appendChild(link);
+  navbar.appendChild(li);
 }
 
 //Footer
@@ -44,9 +41,9 @@ connect_item.className = "footer-item";
 let link = document.createElement("a");
 link.href = "https://www.linkedin.com/in/kevin-vuong-b47664235";
 let connect_header = document.createElement("h2");
-connect_header.textContent = "Connect:"
+connect_header.textContent = "Connect:";
 let icon = document.createElement("i");
-icon.classList.add('fa', 'fa-linkedin-square');
+icon.classList.add("fa", "fa-linkedin-square");
 icon.style.fontSize = "36px";
 icon.style.color = "#0A66C2";
 link.appendChild(icon);
