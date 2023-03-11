@@ -58,20 +58,6 @@ h1 {
   color: var(--black);
 }
 
-@media (max-width: 768px) {
-  .navlist {
-    display: block;
-    background-color: none;
-  }
-  .nav-item {
-    background-color: var(--green);
-  }
-  .footer-item {
-    width: 50%;
-    background-color: var(--green);
-  }
-}
-
 /*.footer {
   position: absolute;
   bottom: 0;
@@ -103,11 +89,13 @@ h1 {
   display: block;
   text-align: center;
 }
+
 .images {
   width: auto;
   height:500px;
   padding: 50px 20px;
 }
+
 h1.text{
   font-size: 4rem;
   padding: 10px;
@@ -117,4 +105,119 @@ h1.text{
 p.text{
   font-size: 2rem;
   padding: 10px;
+}
+
+.about{
+  text-align:center;
+  color: var(--black);
+  border-bottom: solid ;
+}
+
+.image_profile{
+  float: left;
+  border-radius: 50%;
+  height: 450px;
+  width: 450px;
+  display:flex;
+  padding: 40px;
+}
+
+h2.profile_header{
+  font-size: 60px;
+}
+
+h1.profile_header{
+  display: inline-flex;
+  padding:20px;
+  font-size: 75px;
+}
+
+p.profile_text{
+  padding: 20px;
+  margin: 40px;
+  display: block;
+  font-size: 35px;
+}
+
+.form {
+  font-family: Arial, Helvetica, sans-serif;
+  border: thin solid var(--black);
+  border-radius: 10px;
+  padding: 35px;
+  margin: 50px auto;
+  width: 50%;
+  background: white;
+}
+
+.form-element {
+  font-weight: bold;
+  padding: 20px 0px;
+  border: 0;
+}
+
+span.form-element label {
+  display: inline-block;
+  width: 100px;
+  padding: 20px 0px;
+}
+
+span.form-element input {
+  padding: 10px;
+  width: 200px;
+  height: 35px;
+}
+
+fieldset.form-element {
+  margin: 20px 0px 5px 0px;
+}
+
+.options {
+  font-weight: normal;
+  padding: 5px;
+}
+
+.btn {
+  text-align: center;
+  padding: 10px;
+}
+
+.btn-primary {
+  background-color: var(--green);
+  color: var(--white);
+  padding: 1em 4em;
+  border-color: var(--green);
+  border-radius: 5px;
+}
+
+.btn-secondary {
+  background-color: var(--white);
+  color: var(--green);
+  padding: 1em 4em;
+  border-color: var(--green);
+  border-radius: 5px;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  background-color: var(--orange);
+  color: var(--black);
+  border-color: var(--black);
+}
+
+@media (max-width: 768px) {
+  .navlist {
+    display: block;
+    background-color: none;
+  }
+  .nav-item {
+    background-color: var(--green);
+  }
+  .footer-item {
+    width: 50%;
+    background-color: var(--green);
+  }
+  .image_profile{
+    height: 300px;
+    width: 300px;
+  }
 }
