@@ -40,7 +40,7 @@ connect_item.className = "footer-item";
 
 let link = document.createElement("a");
 link.href = "https://www.linkedin.com/in/kevin-vuong-b47664235";
-link.ariaLabel = "Link to Kevin Vuong's LinkedIn"
+link.ariaLabel = "Link to Kevin Vuong's LinkedIn";
 let connect_header = document.createElement("h2");
 connect_header.textContent = "Connect:";
 let icon = document.createElement("i");
