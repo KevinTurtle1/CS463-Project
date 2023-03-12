@@ -6,16 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <script defer src="styles/styles.js"></script>
+    <script defer src="styles/contact.js"></script>
   </head>
   <body>
-    <nav>
-      <ul class="nav-list"></ul>
-    </nav>
+    <main>
+      <nav>
+        <ul class="nav-list"></ul>
+      </nav>
+      <form class="form" action="">
+        <h1>Feedback Form</h1>
+        <span class="form-element">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name..."
+          />
+        </span>
+        <span class="form-element">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email here..."
+          />
+        </span>
+        <span class="form-element">
+          <label for="feedback">Feedback</label>
+          <textarea
+            id="feedback"
+            class="textbox"
+            placeholder="Enter a message here..."
+          ></textarea>
+        </span>
+        <div class="btn">
+          <input class="btn-primary" type="submit" value="Submit" />
+          <input class="btn-secondary" type="Reset" value="Reset" />
+        </div>
+      </form>
+    </main>
     <footer class="footer"></footer>
   </body>
 </html>
