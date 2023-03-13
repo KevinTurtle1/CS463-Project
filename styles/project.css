@@ -1,0 +1,12 @@
+.project{
+    border: thin solid var(--purple);
+    width: 800px;
+    margin: 50px auto;
+    padding: 35px;
+    height: auto;
+    background: var(--white);
+}
+
+.project li{
+    padding-bottom: 20px;
+}

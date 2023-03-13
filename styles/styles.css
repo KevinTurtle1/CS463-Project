@@ -116,6 +116,7 @@ p.text {
   text-align: center;
   color: var(--black);
   border-bottom: solid;
+  min-width: 768px;
 }
 
 .image_profile {
