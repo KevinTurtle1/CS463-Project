@@ -1,11 +1,11 @@
 //Adding a navigation bar
 const tabs = ["Home", "About Me", "Resume", "Projects", "Contact"];
 const links = [
-  "../index.html",
-  "../about_me.html",
-  "../resume.html",
-  "../projects.html",
-  "../contact.html",
+  "index.html",
+  "about_me.html",
+  "resume.html",
+  "projects.html",
+  "contact.html",
 ];
 
 //let navbar = document.querySelector(".nav-list");
