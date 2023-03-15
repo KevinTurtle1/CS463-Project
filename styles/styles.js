@@ -1,8 +1,9 @@
 //Adding a navigation bar
-const tabs = ["Home", "About Me", "Projects", "Contact"];
+const tabs = ["Home", "About Me", "Resume", "Projects", "Contact"];
 const links = [
   "../index.html",
   "../about_me.html",
+  "../resume.html",
   "../projects.html",
   "../contact.html",
 ];
