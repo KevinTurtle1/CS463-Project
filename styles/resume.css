@@ -1,0 +1,35 @@
+.resume {
+  border: thin solid var(--purple);
+  width: 1000px;
+  margin: 50px auto;
+  padding: 35px;
+  height: auto;
+  background: var(--white);
+}
+
+.resume h1 {
+  text-align: left;
+  width: 500px;
+  border-bottom: 5px solid black;
+}
+
+.resume h3 {
+  padding-bottom: 20px;
+}
+
+.resume h4 {
+  margin-top: -20px;
+  margin-left: 10px;
+}
+
+.resume li {
+  padding-bottom: 10px;
+}
+
+.skills {
+  columns: 2;
+}
+
+.skills li {
+  padding: 10px;
+}
